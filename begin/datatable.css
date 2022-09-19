@@ -1,0 +1,48 @@
+body {
+    background-color: deepskyblue;
+}
+
+thead th {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    padding: 15px;
+    width: 200px;
+}
+
+table {
+    font-family: Arial;
+    width: 40%;
+    padding:0px;  
+}
+    
+
+tbody tr {
+    border: 1px solid grey;
+}
+
+
+ 
+tbody tr:nth-child(odd) {
+    background-color: bisque;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody tr:hover {
+    background-color:grey;
+} 
+
+thead tr {
+    border-bottom: 2px solid grey;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+table thead th:last chil {
+    border-bottom-left-radius: 5px;
+}

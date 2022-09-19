@@ -1,0 +1,27 @@
+div {
+    background-color: grey;
+    background-size:cover;
+    width: 550px;
+    font-size: 20px;
+    color: white;
+    height: 140px;
+
+}
+
+.smaller {
+    font-size: 25px;
+    position: center;
+    height: 130px
+    
+}
+
+#bigger {
+    font-size: 25px;
+    background-color: green;
+    width: 650px
+}
+
+.oth {
+    font-size: 25px;
+    color: purple!important;
+}

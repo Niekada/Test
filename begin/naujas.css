@@ -1,0 +1,15 @@
+ul {
+    list-style: none;
+    padding-right: 20;
+    border: solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.fa-guitar {
+    color:green
+}
+
+.fa-hammer {
+    background-color: darkolivegreen;
+}

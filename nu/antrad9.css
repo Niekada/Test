@@ -1,0 +1,74 @@
+.flexbox {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,171,252,1) 1%, rgba(79,175,252,1) 24%, rgba(56,138,193,1) 39%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+    width: 1200px;
+}
+
+.cat {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(43,74,244,1) 83%, rgba(44,58,250,1) 94%, rgba(45,49,253,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+    border-radius: 2%;
+}
+
+.dog {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(43,74,244,1) 83%, rgba(44,58,250,1) 94%, rgba(45,49,253,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    text-align: center;
+    width: 300px;
+    height: 550px;
+    margin-top: 50px;
+    border-radius: 2%;
+}
+
+.fish {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(43,74,244,1) 83%, rgba(44,58,250,1) 94%, rgba(45,49,253,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    margin-top: 100px;
+    border-radius: 2%;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+.p1 {
+    border-bottom: 1px solid gray;
+}
+
+button {
+    background-color: yellow;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+}
+

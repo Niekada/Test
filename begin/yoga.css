@@ -1,0 +1,13 @@
+img {
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.image {
+    background-image: url('https://i.picsum.photos/id/79/200/200.jpg?hmac=jnCRb6UX5VWA4Kxl91zIBXPa2iJJsmVwzbxrzt6TahQ');
+    width: 200px;
+    height: 200px;
+    background-position: center;
+}

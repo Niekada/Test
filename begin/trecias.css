@@ -1,0 +1,8 @@
+.container {
+    max-width: fit-content;
+    border: 1px solid grey
+}
+
+.header {
+    display: inline-block
+}

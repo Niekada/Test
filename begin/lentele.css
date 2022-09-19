@@ -1,0 +1,29 @@
+body {
+    border: 1px solid grey;
+    width: 350px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.vienas {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    margin: 10px;
+}
+
+.du {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-between;
+}

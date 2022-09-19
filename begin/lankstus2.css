@@ -1,0 +1,49 @@
+body {
+    height: 200px;
+}
+
+
+.one, .three {
+    background-color: rgb(235, 240, 227);
+}
+
+header {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: lightgreen;
+}
+
+div, header, footer {
+    height: 200px;
+
+}
+
+.one {
+    flex-grow: 2;
+}
+
+.two {
+    flex-grow: 6;
+}
+
+.three {
+    flex-grow: 2;
+}
+
+@media screen and (min-width: 320px) and (max-width:659px) { 
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+}
+}
+
+@media screen and (min-width: 660px) { 
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+}
+}

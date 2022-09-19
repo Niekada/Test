@@ -1,0 +1,41 @@
+.border {
+    border:solid
+}
+
+main {
+    text-align: center;
+    margin: 0;
+}
+
+.cont {
+    width: 370;
+    margin: 50;
+}
+
+h1 {
+    background-color:green ;
+    color: white;
+    font-weight: 400;
+}
+
+div img {
+    width: 100%;
+}
+
+button {
+    background-color:green ;
+    color: white;
+    font: size 1.5rem;
+    width: 100%;
+    border: none;
+}
+
+span {
+    color: green;
+    font-weight:bold ;
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 8px;
+}

@@ -1,0 +1,51 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin: 10px;
+    border-top: 1px solid black;
+}
+
+.box1 {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    align-self: flex-start;
+    margin: 5px
+}
+
+.box2 {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    align-self: flex-end;
+    margin: 5px
+}
+
+.box3 {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    align-self: center;
+    margin: 5px
+}
+
+.box4 {
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    color: white;
+    align-self: baseline;
+    margin: 5px
+}
+
+.box5 {
+    width: 50px;
+    background-color: orange;
+    color: white;
+    align-self: stretch;
+    margin: 5px
+}

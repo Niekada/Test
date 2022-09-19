@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+}
+
+thead tr th {
+    text-align: left;
+    background-color: rgb(31, 196, 196);
+    color: white;
+}
+
+table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color:antiquewhite;
+}
+
+table tr:hover {
+    background-color: yellow;
+}

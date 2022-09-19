@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.food img {
+    min-width: 150;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+@media screen and (max-width:768px) { 
+    .food {
+        width: 25%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) { 
+    .food {
+        width: 50%;
+}
+}
+
+@media screen and (min-width: 1024px) { 
+    .food {
+        width: 100%;
+}
+}
+
+.food:hover~.food2 {
+    color:yellow;
+}

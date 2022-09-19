@@ -1,0 +1,89 @@
+.container1 {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.container2 {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container3 {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container4 {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container5 {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container6 {
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skaicius1 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+}
+
+.skaicius2 {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+}
+
+.skaicius3 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+}
+
+.skaicius4 {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+}
+
+.skaicius5 {
+    background-color: pink;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+}
+
+.skaicius6 {
+    background-color: lightgreen;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+}

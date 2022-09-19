@@ -1,0 +1,68 @@
+.body {
+    background-color: black;
+}
+
+.container1 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+.container2 {
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 300px;
+}
+
+.container3 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.container4 {
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 300px;
+}
+
+.skaicius1 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+    flex: 1;
+}
+
+.skaicius2 {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.skaicius3 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.skaicius4 {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}

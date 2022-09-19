@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(231, 229, 229);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hamburger {
+    width: 500px;
+    height: 500px;
+}
+
+.nav {
+    width: 400px;
+    height: 2180px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+    align-items: left;
+}
+
+.nav-port {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-temp {
+    color: gray;
+}
+
+.nav-item {
+    margin-top: 20px;
+    font-weight: 500px;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.port {
+    font-size: 45px;
+}
+
+header {
+    padding-left: 20px;
+    border-bottom: 2px solid gray;
+    width: 1260px;
+}
+
+filter {
+    display: flex;
+    flex-direction: row;
+}
+
+.bot {
+    background-color: white;
+    height:30px;
+    width: 80px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.choise {
+    margin-top: 20px;
+    border: 1px solid white;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.choise p {
+    padding: 10px;
+}
+
+.foo {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.boot {
+    width: 25px;
+    height: 30px;
+    border: none;
+}
+
+.about {
+    padding-top: 60px;
+    padding-left: 20px;
+    width: 1300px;
+}
+
+.down {
+    margin-top: 30px;
+    background-color: gray;
+    color: white;
+    font-weight: 10px;
+    height: 30px;
+    width: 250px;
+}
+
+.how {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.much {
+    padding-left: 20px;
+    padding-top: 60px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 1px solid white;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between
+}
+
+.basic, .premium {
+    width: 400px;
+    height: 60px;
+    background-color: gray;
+    color: white;
+}
+
+.pro {
+    width: 400px;
+    height: 60px;
+    background-color:rgb(25, 183, 194);
+    color: white;
+}
+
+.sign {
+    background-color:rgb(25, 183, 194);
+    color: white;
+    border: none;
+    width: 85px;
+    height: 30px;
+
+}
+
+.price {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+@media screen and (min-width:360px) and (max-width: 624px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .about {
+        width: 440px;
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+
+    .how {
+        flex-direction: column;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hamburger:hover~.nav {
+        display: flex;
+    }
+
+    header {
+        width: 440px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hamburger {
+        display: none;
+    }
+}
+

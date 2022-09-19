@@ -1,0 +1,95 @@
+body {
+    width: 700px;
+}
+
+.container1 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 150px;
+    width: 300px;
+}
+
+.cont1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 150px;
+    width: 300px;
+}
+
+.container3 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+}
+
+.container4 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 150px;
+    width: 300px;
+}
+
+.container5 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.container5 .cont1 {
+    align-items: stretch;
+}
+
+
+.skaicius1 {
+    background-color: red;
+    margin-left: 5px;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.skaicius2 {
+    background-color: yellow;
+    margin-left: 5px;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.skaicius3 {
+    background-color: blue;
+    margin-left: 5px;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.skaicius4 {
+    background-color: green;
+    margin-left: 5px;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.skaicius5 {
+    background-color: pink;
+    margin-left: 5px;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.cont1 .skaicius5 {
+    height: fit-content;
+}

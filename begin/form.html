@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ka mes veikiame pirmadieniais</title>
+        <link rel="stylesheet" href="./Fonts/css/all.css">
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+
+    <body>
+        <form action="http://www.hashemian.com/tools/form-grabber.php" method="post">
+            <div>
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Enter username"/>
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" multiple/>
+            </div>
+
+            <div>
+                <label>Password</label>
+                <input type="password" name="password"/>
+            </div>
+
+            <div>
+                <label for="todo">Todo:</label>
+                <input type="checkbox" id="todo">Buy milk</imput>
+                <input type="checkbox" id="todo">Pet a dog</imput>
+                <input type="checkbox" id="todo">Brush hair</imput>
+            </div>
+
+            <div>
+                <label for="todo">How tired are you?</label>
+                <input type="range" name="range" min="0" max="10"/>
+            </div>
+
+            <div>
+                <label for="radio">Radio</label>
+                <input type="radio" id="radio" value="option 1"/>Option 1
+                <input type="radio" id="radio" value="option 2"/>Option 2
+                <input type="radio" id="radio" value="option 2"/>Option 3
+            </div>
+
+            <div>
+                <label>Where are your from?</label>
+                <select name="city" id="city">
+                    <option value="VLN">Vilnius</option>
+                    <option value="KNS">Kaunas</option>
+                    <option value="KLP">Klaipeda</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Choose your city</label>
+                <select name="city" id="city">
+                    <optgroup label="Lithuania">
+                        <option value="VLN">Vilnius</option>
+                        <option value="KNS">Kaunas</option>
+                        <option value="KLP">Klaipeda</option>                       
+                    </optgroup>
+                    <optgroup label="Latvia">
+                        <option value="RIG">Riga</option>
+                        <option value="BSK">Bauska</option>
+                        <option value="VNS">Venspilis</option>                       
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <input type="text" name="fruits" list="suggestions">
+                    <datalist id="suggestions">
+                        <option value="apple">Apple</option>
+                        <option value="peach">Peach</option>
+                    </datalist>
+                </input>
+            </div>
+
+            <button type="submit">Search</button>
+        </form>
+
+
+
+
+    </body>
+</html>

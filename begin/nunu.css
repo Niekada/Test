@@ -1,0 +1,19 @@
+div a {
+    color: green
+}
+
+.anychild a {
+    color: yellow
+}
+
+.other h1 + p {
+    color: red
+}
+
+.attribute a[href*=".lt"] {
+    color: blue
+}
+
+.link {
+    color:blueviolet
+}

@@ -1,0 +1,94 @@
+.container {
+    margin: 5px;
+    font-size: 5em;
+    font-weight: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr 4fr 1fr;
+
+    grid-template-areas: 
+    "itema itema itema"
+    "itemc itemb iteme"
+    "itemc itemd iteme"
+    "itemf itemf itemf"
+    ;
+
+    gap: 20px;
+}
+
+.itema {
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    grid-area: itema;
+}
+
+.itemb {
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    grid-area: itemb;
+}
+
+.itemc {
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    grid-area: itemc;
+}
+
+.itemd {
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    grid-area: itemd;
+}
+
+.iteme {
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    grid-area: iteme;
+}
+
+.itemf {
+    border: 2px solid red;
+    background-color: white;
+    color: black;
+    grid-area: itemf;
+}
+
+@media screen and (min-width:660px) and (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr 4fr;
+        grid-template-rows: 1fr 1fr 4fr 1fr;
+
+        grid-template-areas: 
+        "itema itema"
+        "itemb itemb"
+        "itemc itemd"
+        "iteme itemf"
+        ;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 4fr 1fr 1fr;
+
+        grid-template-areas: 
+        "itema"
+        "itemb"
+        "itemd"
+        "itemc"
+        "iteme"
+        "itemf"
+        ;
+    }
+}

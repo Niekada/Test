@@ -1,0 +1,68 @@
+table thead th {
+    text-transform: uppercase
+}
+
+table {
+    border: none;
+    font-size: 5; 
+    border-collapse: collapse;
+    box-shadow: 10 10 10 black;
+}
+
+table td, table th {
+    text-align: left;
+}
+
+table tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+
+.progress button {
+    width: fit-content;
+    background-color: green;
+    border-radius: 3px;
+    border: none;
+    color: white
+}
+
+.open button {
+    width: fit-content;
+    background-color: rgb(248, 196, 99);
+    border-radius: 3px;
+    border: none;
+    color: black
+}
+
+.hold button {
+    width: fit-content;
+    background-color: rgb(175, 6, 6);
+    border-radius: 3px;
+    border: none;
+    color: white
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+.devyni {
+    text-align: left;
+}
+
+.total {
+    text-align: right;
+}
+
+a {
+    font-size: small;
+}

@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 125px;
+    border: 1px solid gray;
+    align-content: flex-start;
+}
+
+.container2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 125px;
+    border: 1px solid gray;
+    align-content: flex-end;
+}
+
+.container3 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 125px;
+    border: 1px solid gray;
+    align-content: center;
+}
+
+.container4 {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 125px;
+    border: 1px solid gray;
+    align-content: space-around;
+}
+
+.container5 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 125px;
+    border: 1px solid gray;
+}
+
+.container6 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 125px;
+    border: 1px solid gray;
+}
+
+.skaicius1 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+}
+
+.skaicius2 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+}
+
+.skaicius3 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+}
+
+.skaicius4 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+}
+
+.skaicius5 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+}
+
+.skaicius6 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    color: white;
+}

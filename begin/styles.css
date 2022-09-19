@@ -1,0 +1,15 @@
+.even {
+    background-color: #E5E7E6
+}
+
+.odd {
+    background-color: #B7B5B3
+}
+
+.ul {
+    background-color: #141301
+}
+
+ul {
+    border: 1px solid black;
+}

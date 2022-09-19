@@ -1,0 +1,31 @@
+main {
+    text-align: center;
+}
+
+
+h2 {
+    background-color: cyan;
+    color: white
+}
+
+h1 {
+    background-color: #D3D4D9 ;
+    color: black
+}
+
+h3 {
+    background-color: #D3D4D9;
+    color: black
+}
+
+p {
+    background-color: #bb0a21;
+    color: white
+}
+
+button {
+    color: white;
+    background-color: 252627;
+    padding: 15px;
+    font-size: 24px;
+}

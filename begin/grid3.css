@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    height: 100vh;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    "nav header header header header"
+    "nav article article article aside"
+    "nav article article article aside"
+    "nav article article article aside"
+    "nav footer footer footer aside"
+    ;
+}
+
+.nav {
+    background-color: rgb(213, 247, 213);
+    grid-area: nav;
+}
+
+.header {
+    background-color: rgb(134, 212, 17);
+    grid-area: header;
+}
+
+.article {
+    grid-area: article;
+}
+
+.aside {
+    background-color: rgb(216, 216, 187);
+    grid-area: aside;
+}
+
+.footer {
+    background-color: rgb(134, 212, 17);
+    grid-area: footer;
+}

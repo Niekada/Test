@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="./Fonts/css/all.css">
+        <link rel="stylesheet" href="reg1.css">
+    </head>
+
+
+    <body>
+        <div>
+            <h3>Registration Form</h3>
+        </div>
+            <div class="container">
+                <form action="https://www.hashemian.com/tools/form-post-tester.php" method="post">
+                    <div class="row">
+                        <label>First Name:</label>
+                        <input type="text" name="firstname"/>
+                    </div>
+
+                    <div class="row">
+                        <label>Last Name:</label>
+                        <input type="text" name="lastname"/>
+                    </div>
+
+                    <div class="row">
+                        <label>Username:</label>
+                        <input type="text" name="username"/>
+                    </div>
+
+                    <div class="row2">
+                        <label>Password</label>
+                        <input type="password" name="password"/>
+                    </div>
+                    
+                    <div class="row1">
+                        <label>Email:</label>
+                        <input type="email" name="email" multiple/>
+                    </div>
+
+                    <div class="row">
+                        <label>Mobile No:</label>
+                        <input type="number" name="email" multiple/>
+                    </div>
+
+                    <div class="row">
+                        <label>City</label>
+                        <select name="city" id="city">
+                            <option disabled selected value="Select">Select</option>
+                            <option value="VLN">Vilnius</option>
+                            <option value="KNS">Kaunas</option>
+                            <option value="KLP">Klaipeda</option>
+                            <option value="PBV">Panevezys</option>
+                            <option value="SIA">Siauliai</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button type="submit">Register</button><a href="">Back to Home</a>
+                    </div>
+                </form>
+            </div>
+    </body>
