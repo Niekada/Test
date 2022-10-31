@@ -136,6 +136,3 @@ function newAddress (array) {
     })  
 }
 
-function createFav () {
-
-}
