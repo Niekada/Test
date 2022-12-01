@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://static9.depositphotos.com/1000207/1162/i/450/depositphotos_11621348-stock-photo-question-mark.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.726);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1fr;
+    height: 100px;
+    background-color: rgba(192, 192, 192, 0.514);
+
+    button {
+        width: 200px;
+        height: 50px;
+        background-color: silver;
+        border-color: white;
+    }
+
+    button:active {
+      transform: translateY(4px);
+      font-weight: 600;
+    }
+}
+
+main {
+    margin-top: 50px;
+
+    #introduction {
+        text-align: center;
+        margin: 0px 70px 0px 70px;
+    }
+
+    #answer {
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    #submit {
+        margin-top: 20px;
+        width: 100px;
+        height: 50px;
+        background-color: silver;
+        border-color: white;
+    }
+}
